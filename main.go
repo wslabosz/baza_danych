@@ -9,6 +9,7 @@ import (
 
 func main() {
 	client := db.NewFaunaClient(f.NewFaunaClient(
+		// dont worry its inactive
 		"fnAFGP5D-2AAzT_Aifq-3Uv-jiz9ngL9A4NPKfiv",
 		f.Endpoint("https://db.fauna.com/"),
 	))
